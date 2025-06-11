@@ -1,0 +1,5 @@
+print ("What's your name?")
+name = input()
+print ("Hello " + name + ". And how old are you?")
+age = int(input())
+print ("You have "+str(age)+". " + str(100-age) +" years missing to 100 years old.")
